@@ -39,4 +39,5 @@ Exemplo de funcionamento:
 2) Execução dos testes unitários com sucesso.
 
 3) Inspeção do código-fonte. Adequação a boas práticas de programação e orientação a objetos.
-Dica: utilize ferramentas de inspeção de código. Por exemplo Analyze->Inspect Code no IntelliJ IDEA.
+Dica: utilize ferramentas de inspeção de código. Por exemplo Analyze->Inspect Code no IntelliJ IDEA,
+   ou o SonarLint, que está disponível em diversas IDEs.
