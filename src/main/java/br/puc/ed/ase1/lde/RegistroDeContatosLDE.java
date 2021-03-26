@@ -1,11 +1,11 @@
-package br.puc.ed.ase1.le;
+package br.puc.ed.ase1.lde;
 
 import br.puc.ed.ase1.Contato;
 import br.puc.ed.ase1.RegistroDeContatos;
 
-public class RegistroDeContatosLE implements RegistroDeContatos {
+public class RegistroDeContatosLDE implements RegistroDeContatos {
 
-    public RegistroDeContatosLE(){
+    public RegistroDeContatosLDE(){
     }
 
     public void inserir(Contato contato){

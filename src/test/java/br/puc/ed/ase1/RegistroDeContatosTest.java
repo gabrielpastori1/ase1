@@ -3,19 +3,17 @@ package br.puc.ed.ase1;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import br.puc.ed.ase1.Contato;
-import br.puc.ed.ase1.RegistroDeContatos;
 import br.puc.ed.ase1.array.RegistroDeContatosAR;
-import br.puc.ed.ase1.le.RegistroDeContatosLE;
+import br.puc.ed.ase1.lde.RegistroDeContatosLDE;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class RegistroDeContatosLETest {
+public class RegistroDeContatosTest {
 
     @Test
     void testeListaEncadeada(){
-        RegistroDeContatosLE registroDeContatosLE = new RegistroDeContatosLE();
-        testeLista(registroDeContatosLE);
+        RegistroDeContatosLDE registroDeContatosLDE = new RegistroDeContatosLDE();
+        testeLista(registroDeContatosLDE);
     }
 
     @Test

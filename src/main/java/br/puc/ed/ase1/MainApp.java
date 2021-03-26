@@ -1,6 +1,5 @@
 package br.puc.ed.ase1;
 
-import br.puc.ed.ase1.le.RegistroDeContatosLE;
 import java.util.Scanner;
 
 public class MainApp {
